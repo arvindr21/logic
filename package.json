@@ -1,0 +1,22 @@
+{
+  "name": "logic",
+  "version": "0.0.1",
+  "description": "Logic",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvindr21/logic.git"
+  },
+  "author": "Arvind Ravulavaru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arvindr21/logic/issues"
+  },
+  "homepage": "https://github.com/arvindr21/logic#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

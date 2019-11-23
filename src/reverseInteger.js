@@ -1,13 +1,13 @@
 function revInt(x) {
     // Validate input
-    x = parseInt(x);
-    if(isNaN(x)) return new Error(`${x} is not an integer.`);
+    const y = parseInt(x);
+    if(isNaN(y)) return new TypeError(`${x} is not an integer.`);
     
     // capture the sign
-    const sign = Math.sign(x);
+    const sign = Math.sign(y);
     
     // reverse the int
-    let reversed = x.toString().split('').reverse().join('');
+    let reversed = y.toString().split('').reverse().join('');
 
     // multiply the sign with revInt
     reversed = parseInt(reversed) * sign;
@@ -17,6 +17,4 @@ function revInt(x) {
 
 }
 
-// Test
-revInt(123);
-revInt(-123);
+module.exports = revInt;
