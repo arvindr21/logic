@@ -35,4 +35,3 @@ function anagram(strA, strB) {
 }
 
 module.exports = anagram;
-
