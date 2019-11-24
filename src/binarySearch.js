@@ -1,6 +1,6 @@
 function binarySearch(numArr, key) {
 	 // base case
-    let midPos = numArr.length % 2 === 0 ? numArr.length / 2 : Math.floor(numArr.length / 2);
+    let midPos = Math.floor(numArr.length / 2);
     let midVal = numArr[midPos];
     if (midVal === key) {
         return true;
