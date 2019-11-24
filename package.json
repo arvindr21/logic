@@ -4,6 +4,7 @@
   "description": "Logic",
   "main": "index.js",
   "scripts": {
+    "test-ci": "jest",
     "test": "jest --colors --watch"
   },
   "repository": {
