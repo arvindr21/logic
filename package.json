@@ -4,7 +4,7 @@
   "description": "Logic",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --colors --watch"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "homepage": "https://github.com/arvindr21/logic#readme",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+        "**/*.{js,jsx}",
+        "!**/node_modules/**"
+    ]
   }
 }
